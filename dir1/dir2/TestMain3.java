@@ -4,6 +4,7 @@ import dir1.dir2.Tuple;
 import dir1.VecTupSet;
 import dir1.dir2.VecTupPair;
 
+//java dir1.dir2.TestMain3 で動く
 public class TestMain3 {
 	public static void main(String[] args) {
 		System.out.println("here is dir2");
