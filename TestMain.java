@@ -1,5 +1,7 @@
 import dir1.Vector;
 import dir1.dir2.Tuple;
+import dir1.VecTupSet;
+import dir1.dir2.VecTupPair;
 
 public class TestMain {
 	public static void main(String[] args) {
@@ -13,5 +15,11 @@ public class TestMain {
 
 		Tuple tuple = new Tuple(4.23, 8.37);
 		System.out.println("tuple = " + tuple);
+
+		VecTupSet set = new VecTupSet(vector, tuple);
+		System.out.println(set);
+
+		VecTupPair pair = new VecTupPair(vector, tuple);
+		System.out.println(pair);
 	}
 }

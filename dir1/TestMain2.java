@@ -1,6 +1,8 @@
 package dir1;			//packageが先
 import dir1.Vector;		//importが後
 import dir1.dir2.Tuple;
+import dir1.VecTupSet;
+import dir1.dir2.VecTupPair;
 
 // java dir1.TestMain2 で動く
 public class TestMain2 {
@@ -17,5 +19,11 @@ public class TestMain2 {
 
 		Tuple tuple = new Tuple(2.38, 2.14);
 		System.out.println("tuple = " + tuple);
+
+		VecTupSet set = new VecTupSet(vector, tuple);
+		System.out.println(set);
+
+		VecTupPair pair = new VecTupPair(vector, tuple);
+		System.out.println(pair);
 	}
 }
